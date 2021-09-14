@@ -1,0 +1,1 @@
+# typesense-php
