@@ -35,9 +35,8 @@ class Typesense extends CI_Controller {
 			);
 		} catch (Exception $e) {
 			echo $e->getMessage();
-		}		
-		
-		
+		}
+
 		$client->collections['parts']->delete(); //first delete all parts
 
 		try {
